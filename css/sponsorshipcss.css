@@ -1,0 +1,56 @@
+.our-sponsor-client-area .row {
+  margin-left: -20px;
+  margin-right: -20px; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .our-sponsor-client-area .row {
+      margin-left: -15px;
+      margin-right: -15px; } }
+  @media only screen and (max-width: 767px) {
+    .our-sponsor-client-area .row {
+      margin-left: -15px;
+      margin-right: -15px; } }
+  .our-sponsor-client-area .row .col-12 {
+    padding-left: 20px;
+    padding-right: 20px; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .our-sponsor-client-area .row .col-12 {
+        padding-left: 15px;
+        padding-right: 15px; } }
+    @media only screen and (max-width: 767px) {
+      .our-sponsor-client-area .row .col-12 {
+        padding-left: 15px;
+        padding-right: 15px; } }
+
+.main-sponsor .single-sponsor-title h6{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: white;
+}
+
+.main-sponsor .single-sponsor-link h6 {
+	margin-top: 5%;
+	margin-bottom: 15%;
+}
+
+.main-sponsor .single-sponsor-link h6 a{
+	
+	color: white;
+}
+
+
+.main-sponsor .single-sponsor-link h6 a:hover{
+	
+	color:#df42b1;
+}
+
+
+
+.platinum-sponsors-heading{
+	color: white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.inside-container{
+	width: 90%;
+}

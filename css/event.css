@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #0B0C10; }
+  body h1 {
+    font-size: 100px;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    color: #FF652F; }
+  body .events {
+    position: absolute;
+    width: 70%;
+    height: 100%; }
+    body .events ul {
+      position: absolute;
+      transform: translateX(20%);
+      margin: 0;
+      padding: 40px;
+      box-sizing: border-box; }
+      body .events ul li {
+        list-style: none;
+        background: #c5c6c7;
+        box-sizing: border-box;
+        height: 150px;
+        margin: 30px; }
+        body .events ul li .time {
+          position: relative;
+          padding: 20px;
+          background: #FF652F;
+          box-sizing: border-box;
+          border: 5px solid #FF652F;
+          width: 30%;
+          height: 100%;
+          float: left;
+          text-align: center;
+          transition: 0.5s; }
+          body .events ul li .time h2 {
+            position: absolute;
+            margin: 0;
+            padding: 10px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #c5c6c7;
+            font-size: 50px; }
+            body .events ul li .time h2 span {
+              font-size: 30px; }
+        body .events ul li .details {
+          padding: 10px;
+          background: #c5c6c7;
+          box-sizing: border-box;
+          width: 70%;
+          height: 100%;
+          float: left; }
+          body .events ul li .details h3 {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            font-size: 30px; }
+          body .events ul li .details p {
+            position: relative;
+            margin: 10px 0 0;
+            padding: 0;
+            font-size: 15px; }
+          body .events ul li .details a {
+            display: block;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 10px 10px;
+            background: #FF652F;
+            border: 2px solid #FF652F;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #c5c6c7;
+            transition: 0.5s;
+            float: right; }
+          body .events ul li .details a:hover {
+            background: #86C232;
+            color: #c5c6c7;
+            border-color: #86C232; }
+      body .events ul li:hover .time {
+        background: #86C232;
+        border-color: #86C232; }
