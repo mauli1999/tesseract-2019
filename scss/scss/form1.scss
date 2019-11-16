@@ -1,0 +1,28 @@
+$primary-color: #00c6ff;
+$secondary-color: #09dca8;
+$font-color: black;
+$lcd-width: 1199px;
+$slcd-width: 991px;
+$tab-width: 768px;
+$smob-width: 575px;
+
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+  body{
+    background: -webkit-linear-gradient(-60deg, #09ffa8 50%, #0072ff 50%);
+    background: -o-linear-gradient(-60deg, #09ffa8 50%, #0072ff 50%);
+    background: linear-gradient(-60deg, #09ffa8 50%, #0072ff 50%);
+    h1{
+      text-align: center;
+    }
+    .btn {
+        width: 50%;
+        border: none;
+        border-radius: 2rem;
+        padding: 1.5%;
+        background: rgba(#fff, 0.6);
+        font-weight: 600;
+        color: #000;
+        cursor: pointer;
+        margin: 30px auto;
+    }
+  }

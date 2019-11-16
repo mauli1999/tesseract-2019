@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Tesseract 2019</title>
+
+    <!-- Favicon -->
+  <link rel="icon" href="tesslogoblack.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="register-style.css">
+
+</head>
+
+
+<body>
+
+ <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
+
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="conferNav">
+
+                    <!-- Logo -->
+                    <a class="nav-brand" href="./index.html"><img src="tesseractwhitelogo.png" alt=""></a>
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li ><a href="index.html">Home</a></li>
+                                <li><a href="events.html">Events</a></li>
+                                <li><a href="sponsorship2.html">Sponsors</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Get Tickets Button -->
+                           <a href="register.html" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Register here <i class="zmdi zmdi-long-arrow-down"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(img/edm.JPG);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content">
+                        <h2 class="page-title">Register</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Register</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Area End -->
+
+    <!-- Contact Us Area Start -->
+    <section class="contact--us-area section-padding-100-0">
+        <div class="container"  style="width: 100%;">
+            <div class=""  style="width: 100%;">
+                <!-- Contact Us Thumb -->
+                <!--<div class="col-12 col-lg-6">
+                    <div class="contact-us-thumb mb-100 wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/44.jpg" alt="">
+                    </div>
+                </div>-->
+                <center>
+                <!-- Contact Form -->
+                <div class="col-12 col-lg-6">
+                    <div class="contact_from_area mb-100 clearfix">
+                        <!-- Contact Heading -->
+                        <div class="contact-heading">
+                            <h4 style="color: #1f2371;">Student details</h4>
+                        </div>
+                        <br />
+                        <div style="text-align: left; width: 100%;">
+                            <form method="POST" id="regForm">
+                                <div style="width: 90%; border: 0px solid; margin-left: 5%; margin-right: 5%;">
+                                    <!-- Single Contact Info -->
+                                    <div class="wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="group">
+                                            <input type="text" name="sName" style="width: 200px; display: inline-block;" pattern="^[A-Za-z]+$" required="required" />
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Surname*</label>
+                                        </div>&nbsp;&nbsp;
+                                        <div class="group">
+                                            <input type="text" name="fName" style="width: 200px; display: inline-block;" pattern="^[A-Za-z]+$" required="required" />
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>First name*</label>
+                                        </div>&nbsp;&nbsp;
+                                        <div class="group">
+                                            <input type="text" name="lName" style="width: 200px; display: inline-block;" pattern="^[A-Za-z]+$" />
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Middle name</label>
+                                        </div>
+                                    </div>
+                                    <!-- Single Contact Info -->
+                                    <div class="single-contact-info wow fadeInUp" style="display: inline-block;" data-wow-delay="300ms">
+                                        <div class="group">
+                                            <input type="text" name="phoneNo" style="width: 200px;" pattern="^[0-9]{10}$" maxlength="10" required="required" />
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Phone number*</label>
+                                        </div>
+                                    </div>&nbsp;&nbsp;
+                                    <div class="single-contact-info wow fadeInUp" style="display: inline-block;" data-wow-delay="300ms">
+                                        <div class="group">
+                                            <input type="text" id="emailid" name="emailid" style="width: 250px;" required="required" />
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>Email address*</label>
+                                            <span id="emailMsg" class="wow fadeInUp" data-wow-delay="300ms"></span>
+                                        </div>
+                                    </div>
+                                    <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="group">
+                                            <input type="text" name="clgName" required="required" />
+                                            <span class="highlight"></span>
+                                            <span class="bar"></span>
+                                            <label>College name*</label>
+                                        </div>
+                                    </div>
+                                    <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                                        <div style="width: 100%;" class="group">
+											<select name="eventsList" class="select-style" style="width: 250px; display: inline-block;" required="required">
+												<option value="selectOne" selected="selected">Select event*</option>
+												<option value="Qriosity">Q-riosity</option>
+												<option value="Amazing Movie Night">Amazing Movie Night</option>
+												<option value="Flickers">Flickers</option>
+												<option value="Personal Film Making Competition">Personal Film Making Competition</option>
+												<option value="Live Photography">Live Photography</option>
+												<option value="Gravity well">Gravity well</option>
+												<option value="Trashomania">Trashomania</option>
+												<option value="Aerosweep (IDRL)">Aerosweep (IDRL)</option>
+												<option value="Tender filling workshop">Tender filling workshop</option>
+												<option value="Computer Vision Workshop">Computer Vision Workshop</option>
+												<option value="Qarnival">Qarnival</option>
+												<option value="The Gift-Giving Project">The Gift-Giving Project</option>
+												<option value="Global -o-poly">Global -o-poly</option>
+												<option value="Planetarium">Planetarium</option>
+												<option value="Live photography studio">Live photography studio</option>
+												<option value="Apocalypse">Apocalypse</option>
+												<option value="Alexa Workshop">Alexa Workshop</option>
+												<option value="Guest lecture - Alchemy">Guest lecture - Alchemy</option>
+												<option value="Mystery room">Mystery room</option>
+												<option value="Game of line">Game of line</option>
+												<option value="Anime Quiz 2.0 + Live Dubbing event">Anime Quiz 2.0 + Live Dubbing event</option>
+												<option value="Human relay race">Human relay race</option>
+												<option value="Tesseract Open">Tesseract Open</option>
+												<option value="Workshop on ESP">Workshop on ESP</option>
+												<option value="Robo Tetris">Robo Tetris</option>
+												<option value="Tessrunn">Tessrunn</option>
+												<option value="Tesseract Open">Tesseract Open</option>
+												<option value="Battle of structures">Battle of structures</option>
+												<option value="Bazaar">Bazaar</option>
+												<option value="Labrynith">Labrynith</option>
+												<option value="Vocify">Vocify</option>
+												<option value="Tecchno Debate">Tecchno Debate</option>
+												<option value="AstroHunt">AstroHunt</option>
+												<option value="A Rickety Adventure">A Rickety Adventure</option>
+												<option value="Psychonetric Test">Psychonetric Test</option>
+												<option value="Code - War">Code - War</option>
+												<option value="Human Board Games">Human Board Games</option>
+												<option value="Robo Soccer">Robo Soccer</option>
+                                            </select>
+                                            <label>Event*</label>
+                                            <span id="eventErr"></span>
+                                        </div>
+                                    </div>
+									<div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="group" id="fileUpload_div">
+											<!--<label for="paymentImg"><img src="paytm.jpg" /></label>-->
+                                            <input type="file" id="paymentImg" name="paymentImg" onchange="getBase64(this.files[0])" required="required" />
+                                        </div>
+                                    </div>
+                                    <center>
+                                    <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                                        <button type="submit" class="btn mt-3 mt-lg-0 ml-3 ml-lg-5 submitBtn" style="background-color: #df42b1;">Register</button>
+                                        <span id="submitMsg" style="margin-left: 20px;"></span>
+                                    </div>
+                                    </center>
+                                </div>
+                            </form>
+                            <div id="insDiv" style="text-align: right;" class="single-contact-info wow fadeInUp" data-wow-delay="300ms"><br><i style="color: red;">* - required fields</i></div>
+                            
+                            <div id="insDiv" style="text-align: right;" class="single-contact-info wow fadeInUp" data-wow-delay="300ms"><br><span style="color: #9293bc;">PayTM number : </span>  +91-9725725825</div>
+                            <span><img src="paytm.jpg" style="height:100px"></span>
+                             <!--<div id="insDiv" style="text-align: right;" class="single-contact-info wow fadeInUp" data-wow-delay="300ms"><br><span style="color: #9293bc;">Name : </span> Twinkle Patel</div>
+                             
+                        <!--    <<!--div id="insDiv" style="text-align: right;" class="single-contact-info wow fadeInUp" data-wow-delay="300ms"><br><div style="color: blue;">Paytm No : 9238474292 - Aman</div></div> -->
+                         </div>
+                        </div>
+                    </div>
+                     </center>
+                </div>
+
+            </div>
+    </section>
+    <!-- Contact Us Area End -->
+
+    <!-- Contact Area Start -->
+
+
+   <section class="contact-our-area " style="background-color: black; padding-top : 50px; " >
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+               <div class="col-12">
+                    <div class="section-heading-2 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Have Question?</p>
+                        <h4>Contact us</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-between">
+              <div class="col-lg-4 col-md-4 col-sm-4 contact-area-height">
+                  <div class="contact-information">
+                      <!-- Single Contact Info -->
+                     <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+
+                           <p>Email:</p>
+                          <h6>tesseract6.19@gmail.com</h6>
+                          <p>Name:</p>
+                          <h6>Aman Agarwal<br><small>(General secretary)</small></h6>
+                          <p>Phone:</p>
+                          <h6>8238474292</h6>
+
+                      </div>
+                  </div>
+              </div>
+           
+              
+              <div class="col-lg-4 col-md-4 col-sm-4 contact-area-height">
+                <div class="contact-information">
+                      <!-- Single Contact Info -->
+                      <div class="single-contact-info wow fadeInUp" data-wow-delay="300ms">
+                          
+                          
+                         
+                      <p>Address:</p>
+                          <h6>PDPU Gandhinagar</h6>
+                          <h6>Raisan Village,Gandhinagar</h6>
+                          <h6>Pincode-382 007.</h6>
+                          <h6>Gujarat, INDIA</h6>
+                          <br>
+                          <p>Website powered by : </p>
+                          <h6> Encode - Coding club of PDPU</h6>
+                   
+                </div>
+              </div>
+
+            </div>
+          </div>
+		  <input type="text" id="godViewInp" />
+
+
+
+
+            <!--         <div class="row " style="padding-bottom: 20px; margin-top:10px;">
+              <div class="col-lg-4 col-md-4 col-sm-4 ">
+
+               			 <img src="Encode.jpg" style=" width: 200px; height: 100px;">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                       <img src="osail.jpg" style=" width: 200px; height: 100px;">
+                  </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 ">
+  							<img src="pdpulogo.png">
+              </div>
+
+            </div>
+            </div>
+-->
+    </section>
+
+
+    <!-- contact us ends -->
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/confer.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
+	<!-- SweetAlert -->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+	<!-- ipdata -->
+	<script src="ipdata.js"></script>
+
+    <script type="text/javascript">
+        
+    </script>
+</body>
+</html>
